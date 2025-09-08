@@ -25,7 +25,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm ci
-          export NODE_ENV=production
+          export NODE_ENV=production 
           npm run-script build
           touch dist/.nojekyll
       - name: Deploy 🚀
